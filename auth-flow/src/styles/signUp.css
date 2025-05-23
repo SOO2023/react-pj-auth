@@ -1,0 +1,77 @@
+section.sign-up{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+form.sign-up-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+form.sign-up-form label{
+    display:block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+form.sign-up-form div{
+    width: 100%;
+}
+
+form.sign-up-form input{
+    display:block;
+    height: 2.5rem;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    padding-left: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+form.sign-up-form button{
+    height: 2rem;
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    width: 200px;
+}
+
+ul.field-hint{
+    margin-top: 5px;
+    font-size: 0.7rem;
+    list-style-position: inside;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(255, 223, 223);
+    border-radius: 0 0 5px 5px;
+    transition: all 0.5s ease;
+}
+
+div.password{
+    position: relative;
+    display:flex;
+}
+
+.show-password-icon{
+    position: absolute;
+    right:10px;
+    top: calc(30%);
+    cursor: pointer;
+    color: rgb(133, 133, 133);
+}
+
+.error{
+    background-color: red;
+    color: azure;
+    padding: 10px;
+    border-radius: 8px;
+}
